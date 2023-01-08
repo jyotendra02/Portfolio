@@ -1,0 +1,143 @@
+body
+{
+    margin: 0 ;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: #ea4d2d ;
+    overflow-x: hidden;
+}
+section
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    padding: 100px 20vw ;
+    border: none;
+}
+.curve
+{
+ position:absolute;
+ height: 225px;
+ width: 100%;
+ bottom: 0;
+}
+.curve::before
+{
+ content: '';
+ display: block;
+ position: absolute;
+ border-radius: 100% 50%;
+ width: 55%;
+ height: 100%;
+ background: #001220;
+ transform: translate(85%,60%);
+}
+.curve::after
+{
+ content: '';
+ display: block;
+ position: absolute;
+ border-radius: 100% 50%;
+ width: 55%;
+ height: 100%;
+ background: #4071f3;
+ transform: translate(-4%,40%);
+ z-index: -1;
+}
+ .custom-shape-divider-top-1667143507 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top-1667143507 .shape-fill {
+    fill: #fa7268;
+}
+.custom-shape-divider-top-1673184706 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1673184706 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 83px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1673184706 .shape-fill {
+    fill: #fa7268;
+}
+.custom-shape-divider-bottom-1673185092 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1673185092 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 112px;
+}
+
+.custom-shape-divider-bottom-1673185092 .shape-fill {
+    fill: #FA7268;
+}
+.red
+{
+ background-color: #ea4d2d;
+ height: 450px;
+ display: flexbox;
+ align-items: center;
+ padding-top: 200px;
+}
+.text
+{
+    text-align: center;
+    font-size: 40px;
+}
+.red p
+{
+transform:translateY(-90px);
+ font-size: 80px;
+ font-style: oblique;
+ text-align: center;
+ line-height: 70px ;
+}
+.pink
+{
+ background-color: #ea4d2d;
+ font-size: 20px;
+ text-align: center;
+}
+.project-grid
+{
+    --gap: 16px;
+    --num-cols:2;
+    --row-height:300px;
+    box-sizing: border-box;
+    padding: var(--gap);
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols),1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+}
+.project-grid >a > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
