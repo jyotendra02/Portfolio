@@ -5,7 +5,9 @@ body
     color: white;
     background: #ea4d2d ;
     overflow-x: hidden;
+
 }
+
 section
 {
     position: relative;
@@ -104,6 +106,12 @@ section
  display: flexbox;
  align-items: center;
  padding-top: 200px;
+
+}
+.red a 
+{
+    text-decoration: none;
+    color: white;
 }
 .text
 {
