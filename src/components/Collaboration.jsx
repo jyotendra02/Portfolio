@@ -10,7 +10,7 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seamless collaboration
+          Skills Mastered by Jyotendra
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
@@ -57,10 +57,15 @@ const Collaboration = () => {
                     index * 45
                   }`}
                 >
-                  <div
-                    className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
-                      index * 45
-                    }`}
+                 <div
+  className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${index * 45} transition-transform duration-150 transform hover:scale-110`}
+>
+
+                  <a
+                    href={app.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center w-full h-full"
                   >
                     <img
                       className="m-auto"
@@ -69,6 +74,7 @@ const Collaboration = () => {
                       alt={app.title}
                       src={app.icon}
                     />
+                  </a>
                   </div>
                 </li>
               ))}
