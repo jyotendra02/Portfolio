@@ -128,21 +128,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  " Implementing robust and efficient smart contracts for blockchain technology projects.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Decentralized Applications",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Responsive Design",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Building Dynamic UIs",
   },
 ];
 
@@ -150,6 +150,7 @@ export const collabApps = [
   {
     id: "0",
     title: "Figma",
+    link: "https://www.google.com",
     icon: figma,
     width: 26,
     height: 36,
